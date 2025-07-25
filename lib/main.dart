@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:project_agus/container/dua.dart';
 import 'package:project_agus/container/satu.dart';
 import 'package:project_agus/container/tiga.dart';
+import 'package:project_agus/form/form_screen.dart';
 import 'package:project_agus/list_view/contoh_dua.dart';
 import 'package:project_agus/list_view/contoh_empat.dart';
 import 'package:project_agus/list_view/contoh_satu.dart';
 import 'package:project_agus/list_view/contoh_tiga.dart';
+import 'package:project_agus/list_view/latihan_satu.dart';
 import 'package:project_agus/list_view/wisata_screen.dart';
 import 'package:project_agus/row_collum/column_satu.dart';
 import 'package:project_agus/row_collum/latihan.dart';
@@ -21,7 +23,7 @@ class BelajarFlutter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: WisataScreen());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: BelajarForm());
   }
 }
 
